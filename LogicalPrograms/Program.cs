@@ -21,7 +21,11 @@ namespace LogicalPrograms
                     fibonacci.Displayfibonacci();
                     break;
 
+                case 2:
 
+                    PerfectNumber checkperfectnumber= new PerfectNumber();
+                    checkperfectnumber.checkperfectnumber();
+                    break;
             }
             Console.ReadLine();
         }
