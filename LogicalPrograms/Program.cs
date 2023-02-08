@@ -36,6 +36,11 @@ namespace LogicalPrograms
                     Reverse Display = new Reverse();
                     Display.Display();
                     break;
+
+                    case 5:
+                    CouponNumber Coupon = new CouponNumber();
+                    Coupon.Coupon();
+                    break;
             }
             Console.ReadLine();
         }
