@@ -26,6 +26,11 @@ namespace LogicalPrograms
                     PerfectNumber checkperfectnumber= new PerfectNumber();
                     checkperfectnumber.checkperfectnumber();
                     break;
+
+                    case 3:
+                    PrimeNumber Prime = new PrimeNumber();
+                    Prime.Prime();
+                    break;
             }
             Console.ReadLine();
         }
